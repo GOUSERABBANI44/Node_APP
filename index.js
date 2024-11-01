@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello hai how are you and happy birthday Rakesh Gulla and have a beautiful GF in this year!\n'
+  const msg = 'Hello hai how are you Happy Diwali!\n'
   res.end(msg);
 });
 
